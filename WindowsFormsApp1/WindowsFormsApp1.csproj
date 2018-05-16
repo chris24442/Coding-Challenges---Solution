@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{4DE1C2F3-3A96-4234-8CDA-65609B58063E}</ProjectGuid>
+    <ProjectGuid>{18636B60-1E6D-48CE-B718-4385C4FE62B8}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>SoloLearn_Coding_Challenges</RootNamespace>
-    <AssemblyName>SoloLearn Coding Challenges</AssemblyName>
+    <RootNamespace>WindowsFormsApp1</RootNamespace>
+    <AssemblyName>WindowsFormsApp1</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -45,35 +45,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="SummationsCalculator.cs">
+    <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="SummationsCalculator.Designer.cs">
-      <DependentUpon>SummationsCalculator.cs</DependentUpon>
-    </Compile>
-    <Compile Include="FrontPage.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="FrontPage.Designer.cs">
-      <DependentUpon>FrontPage.cs</DependentUpon>
-    </Compile>
-    <Compile Include="NBonacciNumberFinder.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="NBonacciNumberFinder.Designer.cs">
-      <DependentUpon>NBonacciNumberFinder.cs</DependentUpon>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="SummationsCalculator.resx">
-      <DependentUpon>SummationsCalculator.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="FrontPage.resx">
-      <DependentUpon>FrontPage.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="NBonacciNumberFinder.resx">
-      <DependentUpon>NBonacciNumberFinder.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>

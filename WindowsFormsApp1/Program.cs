@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace SoloLearn_Coding_Challenges
+namespace WindowsFormsApp1
 {
     static class Program
     {
@@ -16,7 +16,7 @@ namespace SoloLearn_Coding_Challenges
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new SoloLearnCodingChallenges());
+            Application.Run(new SummationsCalculator());
         }
     }
 }
